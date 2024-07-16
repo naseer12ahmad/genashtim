@@ -7,7 +7,21 @@
 </head>
 <body>
 
-    <h1>Hello world!</h1>
+    <h1 id="heading">Hello world!</h1>
+
+    <button id="btn">Click Me</button>
     
 </body>
+<script>
+
+    var myBtn = document.getElementById("btn");
+    var myHeading = document.getElementById("heading")
+
+    myBtn.addEventListener("click", function() {
+        myHeading.innerHTML = "This is a text Genereted by javascript"
+    })
+
+
+
+    </script>
 </html>
